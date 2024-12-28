@@ -1,3 +1,0 @@
-gpu_affinity:
-  _name_: gpu_affinity
-  # _target_: src.callbacks.gpu_affinity.GpuAffinity
