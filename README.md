@@ -15,7 +15,7 @@ conda activate ICCTax
 pip install -r requirements.txt
 ```
 
-Load the hyenadna pre-training module in *model_allinone.py* 
+Load the hyenadna pre-training module in  <span style="color:gray;">model_allinone.py</span> .
 ```
 cd ICCTax/model
 /your/path/ICCTax/hyena/
@@ -38,7 +38,7 @@ predict.py [-h]
 --supk_mapping_file     Path to the Supk mapping file (Excel)  
 --phyl_mapping_file     Path to the Phyl mapping file (Excel)  
 --batch_size            Batch size for predictions (*default=16*)  
---max_length            Maximum length for sequence splitting (*default=1500*) 
+--max_length            Maximum length for sequence splitting (default=1500) 
 
 ## Example
 ```
