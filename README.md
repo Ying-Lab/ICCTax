@@ -32,13 +32,13 @@ predict.py [-h]
            [--batch_size BATCH_SIZE] 
            [--max_length MAX_LENGTH]
 ```
---input_fasta          &nbsp;  Path to the input FASTA file  
---output_labels_file   &nbsp;  Path to save the output labels  
---model_path           &nbsp;  Path to the ICCTax model file  
---supk_mapping_file     &nbsp; Path to the Supk mapping file (Excel)  
---phyl_mapping_file    &nbsp;  Path to the Phyl mapping file (Excel)  
---batch_size           &nbsp;  Batch size for predictions (**default=16**)  
---max_length           &nbsp;  Maximum length for sequence splitting (**default=1500**) 
+--input_fasta          &nbsp;&nbsp;   Path to the input FASTA file  
+--output_labels_file   &nbsp;&nbsp;   Path to save the output labels  
+--model_path           &nbsp;&nbsp;   Path to the ICCTax model file  
+--supk_mapping_file     &nbsp;&nbsp;  Path to the Supk mapping file (Excel)  
+--phyl_mapping_file    &nbsp;&nbsp;   Path to the Phyl mapping file (Excel)  
+--batch_size           &nbsp; &nbsp;  Batch size for predictions (**default=16**)  
+--max_length           &nbsp; &nbsp;  Maximum length for sequence splitting (**default=1500**) 
 
 ## Example
 ```
