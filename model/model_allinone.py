@@ -13,7 +13,7 @@ class HyenaModel(nn.Module):
     def __init__(self,lists):
         super(HyenaModel, self).__init__()
         self.model = HyenaDNAPreTrainedModel.from_pretrained(
-           '/home/data/ICCTax/hyena/',
+           '/your/path/ICCTax/hyena/',
            pretrained_model_name,
         )
         self.supk_decoder = SequenceDecoder(d_model=256, d_output=lists[0], l_output=0, mode="pool")
