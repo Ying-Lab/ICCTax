@@ -32,7 +32,7 @@ predict.py [-h]
            [--batch_size BATCH_SIZE] 
            [--max_length MAX_LENGTH]
 ```
---input_fasta          &nbsp;&nbsp;   Path to the input FASTA file  
+--input_fasta          &nbsp;&nbsp;&nbsp; &nbsp; &nbsp;    Path to the input FASTA file  
 --output_labels_file   &nbsp;&nbsp;   Path to save the output labels  
 --model_path           &nbsp;&nbsp;   Path to the ICCTax model file  
 --supk_mapping_file     &nbsp;&nbsp;  Path to the Supk mapping file (Excel)  
