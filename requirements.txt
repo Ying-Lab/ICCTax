@@ -1,5 +1,5 @@
-torch==2.4.0
-torchvision==0.14.0
+torch==2.3.0
+torchvision==0.18.0
 tqdm==4.66.5
 
 numpy==1.24.3
@@ -7,6 +7,7 @@ pandas==2.0.3
 scipy==1.10.1
 seaborn==0.13.2
 biopython==1.83
+openpyxl==3.1.5
 
 transformers==4.26.1
 pytorch_lightning==1.8.6
