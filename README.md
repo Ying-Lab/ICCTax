@@ -1,6 +1,6 @@
 # ICCTax
 ## Overview
-ICCTax is a taxonomy classification tool powered by the HyenaDNA foundation model, which can effectively classify the four superkingdoms—Archaea, Bacteria, Eukaryotes, and Viruses—and 43 phyla within these superkingdoms. It can perform analysis of community composition in metagenomes.
+ICCTax is a taxonomy classification tool powered by the HyenaDNA foundation model, which can effectively classify the four superkingdoms—Archaea, Bacteria, Eukaryotes, and Viruses—and 43 phyla within these superkingdoms.The HyenaDNA foundation model is a large language model designed for long-range genomic sequences, offering single nucleotide resolution for accurate taxonomic classification. ICCTax can perform analysis of community composition in metagenomes.
 
 ## Installation
 ICCTax is a Python package. To install it, run the following command in your terminal:
