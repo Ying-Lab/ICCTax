@@ -11,9 +11,9 @@ def parse_args():
     parser = argparse.ArgumentParser(description="Predict Supk and Phyl labels for sequences in a FASTA file")
     parser.add_argument('--input_fasta', type=str, required=True, help="Path to the input FASTA file")
     parser.add_argument('--output_labels_file', type=str, required=True, help="Path to save the output labels")
-    parser.add_argument('--model_path', type=str, required=True,default='/home/data/ICCTax/ICCTax.pth', help="Path to the pre-trained model file")
-    parser.add_argument('--supk_mapping_file', type=str, required=True,default='/home/data/ICCTax/mapping/Supk_mapping.xlsx', help="Path to the Supk mapping file (Excel)")
-    parser.add_argument('--phyl_mapping_file', type=str, required=True, default='/home/data/ICCTax/mapping/Phyl_mapping.xlsx',help="Path to the Phyl mapping file (Excel)")
+    parser.add_argument('--model_path', type=str, required=True,default='/your/path/ICCTax/ICCTax.pth', help="Path to the ICCTax model file")
+    parser.add_argument('--supk_mapping_file', type=str, required=True,default='/your/path/ICCTax/mapping/Supk_mapping.xlsx', help="Path to the Supk mapping file (Excel)")
+    parser.add_argument('--phyl_mapping_file', type=str, required=True, default='/your/path/ICCTax/mapping/Phyl_mapping.xlsx',help="Path to the Phyl mapping file (Excel)")
     parser.add_argument('--batch_size', type=int, default=16, help="Batch size for predictions")
     parser.add_argument('--max_length', type=int, default=1500, help="Maximum length for sequence splitting")
     
