@@ -1,0 +1,10 @@
+Sequence 1: Supk = Bacteria, Phyl = Actinobacteria, Genus = Unknown
+Sequence 2: Supk = Bacteria, Phyl = Actinobacteria, Genus = Bifidobacterium
+Sequence 3: Supk = Bacteria, Phyl = Actinobacteria, Genus = Unknown
+Sequence 4: Supk = Bacteria, Phyl = Actinobacteria, Genus = Unknown
+Sequence 5: Supk = Bacteria, Phyl = Actinobacteria, Genus = Actinomyces
+Sequence 6: Supk = Bacteria, Phyl = Actinobacteria, Genus = Unknown
+Sequence 7: Supk = Bacteria, Phyl = Actinobacteria, Genus = Bifidobacterium
+Sequence 8: Supk = Bacteria, Phyl = Actinobacteria, Genus = Unknown
+Sequence 9: Supk = Bacteria, Phyl = Actinobacteria, Genus = Unknown
+Sequence 10: Supk = Bacteria, Phyl = Actinobacteria, Genus = Unknown
