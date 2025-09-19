@@ -60,7 +60,7 @@ python Predict_only1500bp.py \
 python Predict_only1500bp.py --fasta test.fasta --model_path ICCTax.pth --output ICCTax_only1500bp.txt --mapping_dir ./mapping
 ```
 ### 🚀 ICCTax Mode2: Sliding-Window Inference (Sliding over Long Sequences)
-# Optional: enable overlap with 100bp (default) stride
+### Optional: enable overlap with 100bp (default) stride
 ``` 
 python Predict_chunk.py \
   --fasta FASTA_PATH \
